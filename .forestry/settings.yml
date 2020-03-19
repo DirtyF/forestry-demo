@@ -5,14 +5,6 @@ admin_path: "/admin/"
 webhook_url: https://webhook.site/0834de0f-5a69-4739-94b4-5135567a0fc8
 sections:
 - type: directory
-  path: _posts
-  label: Posts
-  create: all
-  match: "**/*"
-  templates:
-  - posts
-  - blogpost
-- type: directory
   path: _posts/fr
   label: FR Post
   create: all
@@ -62,10 +54,10 @@ sections:
 - type: document
   path: _data/information.yml
   label: Contact Information
-upload_dir: uploads
-public_path: https://forestry-demo.netlify.com/uploads
+upload_dir: A new folder
+public_path: https://res.cloudinary.com/jamstatic/image/upload/v1581713769/A%20new%20folder
 front_matter_path: ''
-use_front_matter_path: true
+use_front_matter_path: 
 file_template: ":filename:"
 build:
   preview_env:
@@ -76,3 +68,7 @@ build:
   mount_path: "/srv"
   instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
     --port 8080 --host 0.0.0.0 -d site
+  publish_command: bundle exec jekyll build -d _site
+  publish_env:
+  - JEKYLL_ENV=production
+  output_directory: _site

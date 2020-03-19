@@ -34,22 +34,18 @@ fields:
   hidden: false
   default:
   - blog
-  - news
-  - tech
 - type: file
   name: banner_image
   label: Banner Image
   description: Ideal dimensions 2500px by 1200px
 - type: list
   name: related_posts
-  label: Categories
+  label: Related Posts
   config:
     use_select: true
     source:
-      type: documents
-      section: categories
-      file: _data/categories.yml
-      path: categories
+      type: pages
+      section: jekyll-posts
 - name: layout
   label: Layout
   type: text
@@ -127,5 +123,4 @@ fields:
       path: sections
   label: Section
 pages:
-- _posts/fr/ok.md
 - _posts/fr/ok.md
