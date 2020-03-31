@@ -7,6 +7,11 @@ fields:
   label: Title
   config:
     required: true
+- name: url
+  type: text
+  config:
+    required: false
+  label: url
 - type: textarea
   name: description
   label: Description
