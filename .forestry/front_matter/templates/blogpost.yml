@@ -121,9 +121,9 @@ fields:
     required: false
     options: []
     source:
-      type: documents
-      section: sections
-      file: _data/sections.yml
+      type: pages
+      section: jekyll-pages
+      file: forestry.md
       path: sections
   label: Section
 pages:
