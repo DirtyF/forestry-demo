@@ -10,6 +10,7 @@ tags:
 - c'est super!
 - Mötley Crüe
 slug: ''
+rating: 1
 menu:
   footer:
     weight: 1
