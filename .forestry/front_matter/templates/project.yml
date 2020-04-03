@@ -29,8 +29,10 @@ fields:
     min: 
     max: 
     source:
-      type: pages
+      type: documents
       section: categories
+      file: _data/categories.yml
+      path: categories
   label: cat
 - name: slug
   label: Slug
