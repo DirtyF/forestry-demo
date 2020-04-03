@@ -30,3 +30,11 @@ fields:
     - two
     - three
   label: list
+- name: tags
+  type: tag_list
+  default:
+  - default
+  - one
+  - two
+  - three
+  label: tags
