@@ -22,6 +22,16 @@ fields:
   type: tag_list
   hidden: false
   default: []
+- name: cat
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: categories
+  label: cat
 - name: slug
   label: Slug
   type: text
