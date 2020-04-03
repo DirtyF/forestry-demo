@@ -13,6 +13,9 @@ name:
 date: '2019-02-28T14:34:31.000+00:00'
 title: HIdden field in the page title
 sub_heading: Another one bit the dust.
+cat:
+- culture
+- tech
 published: false
 
 ---
