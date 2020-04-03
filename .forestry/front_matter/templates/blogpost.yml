@@ -61,39 +61,6 @@ fields:
   config: {}
   template: image-gallery
   label: Accessible images
-- name: gallery
-  type: field_group_list
-  fields:
-  - name: image
-    type: file
-    config:
-      maxSize: '1'
-    label: image
-  - name: name
-    type: text
-    config:
-      required: false
-    label: name
-  - name: caption
-    type: text
-    config:
-      required: false
-    label: caption
-  - name: date
-    type: datetime
-    label: date
-    description: ''
-    config:
-      required: false
-      date_format: 
-      time_format: 
-      display_utc: false
-    default: now
-  config:
-    min: 
-    max: 
-    labelField: name
-  label: Gallery
 - name: category
   type: select
   default: ''
