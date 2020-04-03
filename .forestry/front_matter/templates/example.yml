@@ -13,6 +13,16 @@ fields:
   config:
     required: true
   label: description
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
 - name: type
   type: select
   default: blog
