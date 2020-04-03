@@ -12,6 +12,16 @@ fields:
   config:
     maxSize: 250
   label: Image
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
 - name: alt
   type: text
   config:
@@ -27,13 +37,3 @@ fields:
   config:
     required: false
   label: Aria Label
-- name: date
-  type: datetime
-  label: date
-  description: ''
-  config:
-    required: false
-    date_format: 
-    time_format: 
-    display_utc: false
-  default: now
