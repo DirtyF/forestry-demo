@@ -29,6 +29,24 @@ fields:
     display_utc: false
     export_format: YYYY-MM-DD
   default: now
+- name: group
+  type: field_group_list
+  fields:
+  - name: date
+    type: datetime
+    label: date
+    description: ''
+    config:
+      required: false
+      date_format: 
+      time_format: 
+      display_utc: false
+    default: now
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: group
 - name: tags
   label: Tags
   type: tag_list
@@ -104,24 +122,6 @@ fields:
       file: forestry.md
       path: sections
   label: Section
-- name: group
-  type: field_group_list
-  fields:
-  - name: date
-    type: datetime
-    label: date
-    description: ''
-    config:
-      required: false
-      date_format: 
-      time_format: 
-      display_utc: false
-    default: now
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: group
 pages:
 - _posts/fr/ok.md
 - _posts/fr/ok.md
