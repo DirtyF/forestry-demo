@@ -134,3 +134,13 @@ fields:
       file: _people/charlize-babatunde.md
       path: role
   label: people
+- name: weight
+  type: number
+  label: Weight
+  description: Set the page's sort order
+  default: -99
+  required: true
+  config:
+    min: 0
+    max: 99
+    step: 1
