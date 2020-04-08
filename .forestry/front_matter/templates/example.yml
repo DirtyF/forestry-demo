@@ -44,6 +44,15 @@ fields:
   config:
     maxSize: 250
   label: image
+- name: list
+  type: list
+  config:
+    use_select: true
+    min: 3
+    max: 3
+    source:
+      type: simple
+  label: List
 - name: authors
   type: field_group_list
   fields:
@@ -81,13 +90,6 @@ fields:
     max: '2'
     labelField: name
   label: Authors
-- name: list
-  type: list
-  config:
-    use_select: false
-    min: 3
-    max: 3
-  label: List
 - name: meta
   type: field_group
   config: {}
