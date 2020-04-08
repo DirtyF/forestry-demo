@@ -102,8 +102,11 @@ fields:
   - name: description
     type: text
     config:
-      required: false
+      required: true
+      min: 30
+      max: 180
     label: description
+    description: Human-friendly summary to be displayed in SERP
   - name: keywords
     type: text
     config:
