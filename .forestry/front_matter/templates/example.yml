@@ -81,6 +81,13 @@ fields:
     max: '2'
     labelField: name
   label: Authors
+- name: list
+  type: list
+  config:
+    use_select: false
+    min: 3
+    max: 3
+  label: List
 - name: meta
   type: field_group
   config: {}
@@ -120,10 +127,3 @@ fields:
       file: 
       path: 
   label: people
-- name: list
-  type: list
-  config:
-    use_select: false
-    min: 1
-    max: 3
-  label: List
