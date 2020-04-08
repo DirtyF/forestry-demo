@@ -52,6 +52,11 @@ fields:
     max: 3
     source:
       type: simple
+    options:
+    - one
+    - two
+    - three
+    - four
   label: List
 - name: authors
   type: field_group_list
