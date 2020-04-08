@@ -144,3 +144,16 @@ fields:
     min: 0
     max: 99
     step: 1
+- name: tags
+  type: tag_list
+  default:
+  - hugo
+  - gatsby
+  - eleventy
+  - NextJS
+  - jekyll
+  - gridsome
+  - NuxtJS
+  - jamstack
+  label: tags
+  description: Tag this post
