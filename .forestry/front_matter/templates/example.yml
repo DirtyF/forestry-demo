@@ -129,8 +129,8 @@ fields:
     required: false
     options: []
     source:
-      type: pages
+      type: documents
       section: people
-      file: _projects/epilepsy-monitoring.md
-      path: 
+      file: _people/charlize-babatunde.md
+      path: role
   label: people
