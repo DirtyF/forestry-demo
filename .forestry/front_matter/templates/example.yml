@@ -57,6 +57,7 @@ fields:
     - Jordan
     - Nolan
   label: List
+  description: Who's the coolest?
 - name: authors
   type: field_group_list
   fields:
