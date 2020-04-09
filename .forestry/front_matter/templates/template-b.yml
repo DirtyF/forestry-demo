@@ -12,6 +12,3 @@ fields:
   config: {}
   template: template-a
   label: Template A
-pages:
-- i-should-have-page-layout.md
-- this-uses-template-b.md
