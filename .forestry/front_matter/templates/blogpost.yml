@@ -58,7 +58,8 @@ fields:
 - type: file
   name: banner_image
   label: Banner Image
-  description: Ideal dimensions 2500px by 1200px
+  description: Card support an aspect ratio of 2:1 with minimum dimensions of 300x157.
+    [Documentation](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary-card-with-large-image)
 - type: list
   name: related_posts
   label: Categories
