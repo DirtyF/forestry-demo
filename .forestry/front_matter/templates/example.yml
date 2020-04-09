@@ -44,6 +44,15 @@ fields:
   config:
     maxSize: 250
   label: image
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Text
 - name: list
   type: list
   config:
