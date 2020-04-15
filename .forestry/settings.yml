@@ -73,7 +73,7 @@ build:
   preview_output_directory: _site
   install_dependencies_command: ruby -v && bundle config set path 'vendor/bundle'
     && bundle install
-  preview_docker_image: forestryio/ruby:2.7
+  preview_docker_image: forestryio/ruby:2.6
   mount_path: "/srv"
   instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
     --port 8080 --host 0.0.0.0 -d site
