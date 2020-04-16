@@ -59,7 +59,8 @@ fields:
   name: banner_image
   label: Banner Image
   description: Card support an aspect ratio of 2:1 with minimum dimensions of 300x157.
-    [Documentation](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary-card-with-large-image)
+    <a href="https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary-card-with-large-image"
+    title="See Twitter's documentation" target="_blank"><strong>Documentation</strong></a>
 - type: list
   name: related_posts
   label: Categories
