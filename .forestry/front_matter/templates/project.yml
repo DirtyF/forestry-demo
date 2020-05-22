@@ -61,5 +61,3 @@ fields:
     max: 
     step: 
     required: false
-pages:
-- _projects/a-new-document-from-a-collection-other-than-posts.md
