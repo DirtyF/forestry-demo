@@ -7,7 +7,6 @@ sub_heading: ''
 banner_image: ''
 cat: []
 slug: ''
-published: false
 
 ---
 Date is hidden but here we want to know if Forestry will create YYYY-MM-DD-title filename or not.
