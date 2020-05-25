@@ -125,5 +125,5 @@ fields:
       path: sections
   label: Section
 pages:
+- _posts/2020-05-22-this-is-a-new-draft-created-on-may-22.md
 - _posts/fr/ok.md
-- _posts/this-is-a-new-draft-created-on-may-22.md
