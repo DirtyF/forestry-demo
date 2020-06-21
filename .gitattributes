@@ -1,1 +1,10 @@
 uploads/* filter=lfs diff=lfs merge=lfs -text
+uploads/Capture[[:space:]]d’écran[[:space:]]2020-02-02[[:space:]]à[[:space:]]11.14.43.png filter=lfs diff=lfs merge=lfs -text
+uploads/evolution-poids-2018-2019.png filter=lfs diff=lfs merge=lfs -text
+uploads/flight-back.png filter=lfs diff=lfs merge=lfs -text
+uploads/forestry-desktop-enhancer.png filter=lfs diff=lfs merge=lfs -text
+uploads/ssg-github-stars-2020-06.png filter=lfs diff=lfs merge=lfs -text
+uploads/tina-teams-saved-fail.png filter=lfs diff=lfs merge=lfs -text
+uploads/gilfoyle.jpg filter=lfs diff=lfs merge=lfs -text
+uploads/richard_hendricks.jpg filter=lfs diff=lfs merge=lfs -text
+uploads/frank_masque_400x400.jpg filter=lfs diff=lfs merge=lfs -text
